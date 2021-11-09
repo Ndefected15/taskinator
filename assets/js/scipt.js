@@ -23,7 +23,7 @@ var taskFormHandler = function () {
   formEl.reset();
 };
 
-var createTaskEl = function (taskDataObject) {
+var createTaskEl = function (taskDataObj) {
   // create list item
   var listItemEl = document.createElement("li");
   listItemEl.className = "task-item";
